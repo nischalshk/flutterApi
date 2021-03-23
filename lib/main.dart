@@ -1,3 +1,4 @@
+import 'package:easy_approach/screen/single_user_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
       ),
-      home: null 
+      home: SingleUserScreen(),
     );
   }
 }
