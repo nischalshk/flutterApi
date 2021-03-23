@@ -9,6 +9,7 @@ class SingleUserResponse {
   User user;
 
   SingleUserResponse();
+  
    factory SingleUserResponse.fromJson(Map<String, dynamic> json) => _$SingleUserResponseFromJson(json);
   Map<String, dynamic> toJson() => _$SingleUserResponseToJson(this);
 }
